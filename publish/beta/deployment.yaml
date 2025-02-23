@@ -16,8 +16,8 @@ spec:
         app: ed-beta-pod
     spec:
       containers:
-        - image: 
-          name: g-wfya7883-docker.pkg.coding.net/love-elpis/elpis-demo-007/elpis-demo-image-beta
+        - image: g-wfya7883-docker.pkg.coding.net/love-elpis/elpis-demo-007/elpis-demo-image-beta
+          name: ed-beta-container
           ports:
             - containerPort: 8081
       imagePullSecrets:
