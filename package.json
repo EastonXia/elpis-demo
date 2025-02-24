@@ -16,6 +16,6 @@
     "nodemon": "^3.1.9"
   },
   "dependencies": {
-    "@eastonshay/love-elpis": "^1.0.0"
+    "@eastonshay/love-elpis": "^1.0.1"
   }
 }
