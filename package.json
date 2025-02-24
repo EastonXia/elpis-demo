@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "_ENV='local' node ./server.js",
-    "beta": "_ENV='beta' node ./server.js",
+    "beta": "_ENV='beta' PORT=8081 node ./server.js",
     "prod": "_ENV='production' node ./server.js",
     "build:dev": "_ENV='local' node --max_old_space_size=4096 ./build.js",
     "build:prod": "_ENV='prod' node ./build.js"
@@ -16,6 +16,6 @@
     "nodemon": "^3.1.9"
   },
   "dependencies": {
-    "@eastonshay/love-elpis": "^1.0.0"
+    "@eastonshay/love-elpis": "^1.0.1"
   }
 }
