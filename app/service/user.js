@@ -74,8 +74,7 @@ module.exports = (app) => {
     }
 
     async deleteUser(userId) {
-
-    await app.database('t_user').update({
+      await app.database('t_user').update({
         status: app.status.DELETE,
         update_time: moment().format('YYYY-MM-DD HH:mm:ss')
       }).where({
