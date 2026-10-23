@@ -40,8 +40,8 @@
 
 <script setup>
 import { onMounted, ref } from 'vue';
-import $curl from '$elpisCurl';
-import HeaderContainer from '$elpisHeaderContainer';
+import $curl from '$saraCurl';
+import HeaderContainer from '$saraHeaderContainer';
 
 const loading = ref(false);
 const modelList = ref([]);

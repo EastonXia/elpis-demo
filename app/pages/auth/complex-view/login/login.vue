@@ -32,7 +32,7 @@
 <script setup>
 import { ref } from 'vue';
 import { ElMessage } from 'element-plus';
-import $curl from '$elpisCurl';
+import $curl from '$saraCurl';
 
 const loading = ref(false);
 const icon = ref(window.options.icon);

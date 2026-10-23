@@ -1,4 +1,4 @@
-import elpisBoot from '$elpisBoot';
+import saraBoot from '$saraBoot';
 import projectList from './project-list.vue';
 
-elpisBoot(projectList);
+saraBoot(projectList);

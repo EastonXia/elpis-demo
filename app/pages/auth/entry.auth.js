@@ -1,4 +1,4 @@
-import elpisBoot from '$elpisBoot';
+import saraBoot from '$saraBoot';
 import auth from './auth.vue'
 
 const routes = [{
@@ -6,4 +6,4 @@ const routes = [{
   component: () => import('./complex-view/login/login.vue')
 }]
 
-elpisBoot(auth, { routes })
+saraBoot(auth, { routes })
